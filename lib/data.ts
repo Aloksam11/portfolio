@@ -35,29 +35,45 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated Degree",
+    location: "Jalandhar, Punjab",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Aug 2017",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Noida, UP",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 6 months. I also upskilled from HTML/CSS to React.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: " Aug 2017 - Jan 2018",
+  },
+  {
+    title: "Front-End Developer",
+    location: "Noida, UP",
+    description:
+    "I worked as a front-end developer for 1 year 10 months. I upskilled more in React.",
+    icon: React.createElement(FaReact),
+    date: "Feb 2018 - Dec 2019",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Gurgaon, HR",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and all the databases. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Jul 2020 - Mar 2023",
   },
+  {
+    title: "Full-Stack Developer",
+    location: "Noida, UP",
+    description:
+      "Working as full-stack developer. Upskilled myself with react native and deployment of codes. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "Jul 2023 - present",
+  }
 ] as const;
 
 export const projectsData = [
